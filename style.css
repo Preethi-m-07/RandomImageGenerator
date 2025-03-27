@@ -1,0 +1,42 @@
+*{
+   padding:0px;
+   margin:0px;
+
+}
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	background-color:white;
+}
+
+.container{
+	text-align:center;
+	padding:20px;
+	background-color:#86d6d6;
+	border-radius:15px;
+	box-shadow:5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img img{
+	width:400px;
+	height:auto;
+	border-radius:10px;
+}
+
+button{
+	color:white;
+	background-color:blue;
+	border:none;
+	cursor:pointer;
+	border-radius:15px;
+	font-size:18px;
+	margin-top:20px;
+	padding:10px 20px;
+}
+
+button:hover{
+	background-color:darkblue;
+}
