@@ -1,13 +1,3 @@
-let pic = document.getElementsByClassName("img");
-console.log(pic);
-
-
-/*function display(){
-	let photo =["images/agra.avif","alleppey.avif","chikmangalur.jpg","jaipur.avif","leh.jpg","madurai.avif","manali.avif","ooty.webp","pondi.avif","rajastan.avif","pondi2.avif","shimla.webp"];
-    let random = Math.floor(Math.random()*photo.length);
-    console.log(random);
-} */
-
 let but = document.getElementById("but");
 let img = document.querySelector(".img img");
 but.addEventListener("click",function(){
